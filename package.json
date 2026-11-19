@@ -1,0 +1,22 @@
+{
+  "name": "cartoon-studio-ai",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "concurrently npm run dev:frontend npm run dev:backend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "uvicorn main:app --reload --port 8001",
+    "start": "start /B npm run dev:frontend && start /B npm run dev:backend",
+    "build": "npm run build --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "next": "^16.5.0-canary.50"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

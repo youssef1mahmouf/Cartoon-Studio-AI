@@ -1,0 +1,7 @@
+cd "D:\Linux-Transfer\Code\Cartoon Studio AI\backend"
+
+uvicorn main:app --reload --port 8001
+
+cd "D:\Linux-Transfer\Code\Cartoon Studio AI\frontend"
+
+npm run dev

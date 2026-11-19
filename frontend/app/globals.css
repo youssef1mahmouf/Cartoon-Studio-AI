@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 37 99 235;
+  --primary-foreground: 255 255 255;
+  --primary-600: 29 78 216;
+  --primary-700: 26 54 158;
+
+  --muted: 241 245 249;
+  --muted-foreground: 148 163 184;
+  --muted-20: 241 245 249 / 20%;
+  --muted-30: 241 245 249 / 30%;
+
+  --foreground: 15 23 42;
+  --background: 255 255 255;
+
+  --card: 255 255 255;
+  --card-foreground: 15 23 42;
+
+  --sidebar: 248 250 252;
+  --sidebar-foreground: 15 23 42;
+
+  --ring: 37 99 235;
+
+  --radius: 0.5rem;
+
+  --destructive: 239 68 68;
+  --destructive-foreground: 255 255 255;
+
+  --secondary: 241 245 249;
+  --secondary-foreground: 15 23 42;
+
+  --success: 34 197 94;
+  --success-foreground: 255 255 255;
+
+  --warning: 234 179 8;
+  --warning-foreground: 255 255 255;
+}
+
+.dark {
+  --primary: 56 189 248;
+  --primary-foreground: 15 23 42;
+  --primary-600: 36 132 222;
+  --primary-700: 29 78 216;
+
+  --muted: 30 41 59;
+  --muted-foreground: 148 163 184;
+  --muted-20: 30 41 59 / 20%;
+  --muted-30: 30 41 59 / 30%;
+
+  --foreground: 241 245 249;
+  --background: 15 23 42;
+
+  --card: 30 41 59;
+  --card-foreground: 241 245 249;
+
+  --sidebar: 15 23 42;
+  --sidebar-foreground: 241 245 249;
+
+  --ring: 56 189 248;
+
+  --destructive: 248 113 113;
+  --destructive-foreground: 15 23 42;
+
+  --secondary: 30 41 59;
+  --secondary-foreground: 241 245 249;
+
+  --success: 74 222 128;
+  --success-foreground: 15 23 42;
+
+  --warning: 251 191 36;
+  --warning-foreground: 15 23 42;
+}

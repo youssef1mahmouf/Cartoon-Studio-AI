@@ -1,0 +1,6 @@
+
+> cartoon-studio-ai@0.1.0 dev
+> concurrently -p [frontend] -p [backend] "npm run dev:frontend" "npm run dev:backend"
+
+'concurrently' is not recognized as an internal or external command,
+operable program or batch file.

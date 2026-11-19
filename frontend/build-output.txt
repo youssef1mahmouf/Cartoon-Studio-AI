@@ -1,0 +1,115 @@
+
+> cartoon-studio-ai@0.1.0 build
+> next build
+
+   ▲ Next.js 14.0.0
+   - Environments: .env
+
+   Creating an optimized production build ...
+Failed to compile.
+
+./app/pipeline/page.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+   ,-[D:\Linux-Transfer\Code\Cartoon Studio AI\frontend\app\pipeline\page.tsx:1:1]
+ 1 | export default function PipelinePage() {
+ 2 |   return (
+ 3 |     <div className="min-h-screen p-4 bg-gray-50 dark:bg-gray-900">
+   :      ^^^
+ 4 |       <div className="max-w-7xl mx-auto">
+ 5 |         <header className="mb-6">
+ 5 |           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/pipeline/page.tsx
+
+./app/projects/page.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+    ,-[D:\Linux-Transfer\Code\Cartoon Studio AI\frontend\app\projects\page.tsx:31:1]
+ 31 |   }
+ 32 | 
+ 33 |   return (
+ 34 |     <div className="min-h-screen p-4 bg-gray-50 dark:bg-gray-900">
+    :      ^^^
+ 35 |       <div className="max-w-7xl mx-auto">
+ 36 |         <header className="mb-6">
+ 36 |           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/projects/page.tsx
+
+./app/render/page.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+   ,-[D:\Linux-Transfer\Code\Cartoon Studio AI\frontend\app\render\page.tsx:1:1]
+ 1 | export default function RenderPage() {
+ 2 |   return (
+ 3 |     <div className="min-h-screen p-4 bg-gray-50 dark:bg-gray-900">
+   :      ^^^
+ 4 |       <div className="max-w-7xl mx-auto">
+ 5 |         <header className="mb-6">
+ 5 |           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/render/page.tsx
+
+./app/settings/page.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+   ,-[D:\Linux-Transfer\Code\Cartoon Studio AI\frontend\app\settings\page.tsx:1:1]
+ 1 | export default function SettingsPage() {
+ 2 |   return (
+ 3 |     <div className="min-h-screen p-4 bg-gray-50 dark:bg-gray-900">
+   :      ^^^
+ 4 |       <div className="max-w-7xl mx-auto">
+ 5 |         <header className="mb-6">
+ 5 |           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/settings/page.tsx
+
+./app/voices/page.tsx
+Error: 
+  x Unexpected token `div`. Expected jsx identifier
+   ,-[D:\Linux-Transfer\Code\Cartoon Studio AI\frontend\app\voices\page.tsx:1:1]
+ 1 | export default function VoicesPage() {
+ 2 |   return (
+ 3 |     <div className="min-h-screen p-4 bg-gray-50 dark:bg-gray-900">
+   :      ^^^
+ 4 |       <div className="max-w-7xl mx-auto">
+ 5 |         <header className="mb-6">
+ 5 |           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">
+   `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/voices/page.tsx
+
+
+> Build failed because of webpack errors
+npm error Lifecycle script `build` failed with error:
+npm error code 1
+npm error path D:\Linux-Transfer\Code\Cartoon Studio AI\frontend
+npm error workspace cartoon-studio-ai@0.1.0
+npm error location D:\Linux-Transfer\Code\Cartoon Studio AI\frontend
+npm error command failed
+npm error command C:\WINDOWS\system32\cmd.exe /d /s /c next build
